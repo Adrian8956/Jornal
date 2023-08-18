@@ -1,0 +1,105 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: #171f25;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background: #252133;
+    margin: .5rem;
+}
+
+.nav{
+    display: flex;
+    aign-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    padding: 1rem;
+}
+.cabecalho img{
+    width: 100px;
+    
+}
+
+.corpo{
+    diosplay: flex;
+    flex-direction: column;
+}
+
+.filmes{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    gap: .5rem;
+}
+
+.animes{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    gap: .5rem;
+}
+
+.jogos{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    gap: .5rem;
+}
+
+.card{
+    display: flex;
+    gap: .5rem;
+    padding:.2rem;
+    background-color: #F03C39;
+    border-radius: 1rem;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.card img{
+    width: 9rem;
+    border-radius: 1rem;
+}
+
+h4{
+    text-align: center;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+a{
+    
+    color: white;
+}
+
+.cabecalho a:hover{
+    color: #c90a02;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252133;
+    color: white;
+    height: 5rem;
+    margin: .5rem;
+}
